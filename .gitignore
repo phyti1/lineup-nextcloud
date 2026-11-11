@@ -1,0 +1,7 @@
+/build/
+/vendor/
+.idea/
+.vscode/
+*.key
+*.csr
+.DS_Store
