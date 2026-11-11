@@ -11,7 +11,7 @@
     <description><![CDATA[
 **Lineup** is a hosted planning tool for clubs and teams, for example rowing clubs: members sign up for trainings and events, coaches see who is coming, plan training groups and keep track of attendance and absences.
 
-This app embeds Lineup in your Nextcloud and signs your Nextcloud users in automatically. No second password: Nextcloud hands a short-lived, signed token to Lineup, and users are matched by their email address.
+This app embeds Lineup in your Nextcloud and signs your Nextcloud users in automatically. No second password: Nextcloud hands a short-lived, signed token to Lineup, and each Nextcloud account is tied to its own Lineup profile. New users get a profile automatically; people who already have a Lineup account with the same email link it once by signing in to Lineup.
 
 ### Requirements
 

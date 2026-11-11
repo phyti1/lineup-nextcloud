@@ -48,7 +48,8 @@ Nextcloud page (PageController) ──renders──► <iframe src="<lineup>/?em
         │  signed with the connection secret, header kid = connection id
         ▼
    Lineup backend  looks up the connection by kid, verifies the signature
-                   → maps the user by email
+                   → maps (connection, nextcloud_uid) to a profile; new emails get a
+                     profile, existing Lineup accounts are linked once via Lineup login
 ```
 
 Token (connection mode):
